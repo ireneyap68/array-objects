@@ -142,7 +142,7 @@ sayHelloFinal();
 //     }
     
 // };
-
+// printNumbers(numbers);
 // printNumbers(otherNumbers);
 
 const otherNumbers = [10,20,30,40,50,60,70,80,90];
@@ -161,3 +161,20 @@ function printNumbers(array) {
 
 printNumbers(otherNumbers);
 
+const numbers = [1,2,3,4,5,6,7,8,9];
+function addNumbers(array) {
+    let result = 0;
+    //expression, here is outside, down is inside the loop
+
+    for (let i = 0; i < array.length; i++) {
+        let num = array[i]; // 1,2,3,4,5...
+
+         //result = result + num
+        result += num; // 1,3,6,10(4+6),15(5+10)..
+    }
+
+    return result;
+}
+
+let myResult = addNumbers(numbers);
+console.log(myResult);

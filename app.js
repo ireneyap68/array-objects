@@ -46,3 +46,13 @@ for (var i = 0; i < teams.length; i++) {
     var eachTeam = teams[i]; // Lakers, Warriors...
     console.log(eachTeam)
 }
+
+// make an array
+//use a for loop to iterate through your array
+//print each element in your array
+
+var myFood = ["Chicken", "Bacon", "Vegetables", "Tomato", "Salad","Steak"];
+for (var i = 0; i < myFood.length; i++) {
+    var eachFood = myFood[i];
+    console.log(eachFood)
+}

@@ -33,3 +33,16 @@ while (myOtherNumberThree < numberThree) {
     myOtherNumberThree += 1;
 }
 
+
+// for loops
+for (var i = 0; i < 10; i++) {
+    console.log(i);  // 0,1,2,3,4,5..9
+}
+
+// print team
+for (var i = 0; i < teams.length; i++) {
+    //console.log(teams[i]);
+    
+    var eachTeam = teams[i]; // Lakers, Warriors...
+    console.log(eachTeam)
+}
